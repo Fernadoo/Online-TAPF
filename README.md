@@ -20,7 +20,9 @@ $ pip install -r requirements.txt
 
 ### Usage
 
-Run the following to view the manual,
+Some live demos can be found in the `figs/` folder.
+
+To run the code, please first view the manual,
 
 ```bash
 python run_maituan_ta.py -h
@@ -88,3 +90,4 @@ We provide several options for `--router` and `--assigner`.
 | random            | Stateless assignment                  |                   |                                     |
 | alpha             | Adaptive assignment                   | `--alpha`         | For example, `--alpha 0.235`       |
 | mpc               | Predictive assignment                 | `--model`         | Listed in `./assigner/mpc.py:line13` |
+
